@@ -1,0 +1,100 @@
+.container {
+      padding: 50px;
+      border-radius: 30px;
+      background-color: whitesmoke;
+      margin-top: 20px;
+    }
+    .sndcontainer {
+      display: grid;
+      grid-template-columns: 65fr 35fr;
+      padding: 30px;
+      background-color: white;
+      border-radius: 30px;
+    }
+
+    .a {
+      padding-left: 10px;
+      margin-bottom: 0;
+      padding-top: 9px;
+    }
+
+    .b {
+      padding-left: 30px;
+      margin-bottom: 0;
+      padding-top: 20px;
+    }
+    .linkdein {
+      margin-right: 14px;
+    }
+    .linkdein,
+    .github {
+      padding-top: 4px;
+      padding-bottom: 4px;
+      border-radius: 20px;
+      border-color: rgb(255, 255, 255);
+      cursor: pointer;
+      background-color:blue;
+      border-style: none;
+      color: white;
+      text-decoration: none;
+    }
+    .linkst {
+      text-decoration: none;
+      color: white;
+    }
+    .about-me {
+      margin-top: -20px;
+      margin-bottom: 50px;
+    }
+    .tech {
+      color: blue;
+    }
+     h1 {
+      font-size: 300%;
+     }
+     .li {
+      margin-left: 40px;
+     }
+     .down {
+      background-color: whitesmoke;
+      justify-content: center;
+      border-radius: 50px;
+      margin-top: 8px;
+      margin-bottom: 50px;
+      padding: 40px;
+     }
+     .link {
+      color: blue;
+      text-decoration: none;
+     }
+     h2 {
+      color: blue;
+     }
+
+     .download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #6750A4; /* Primary color */
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #4e3b85; /* Darker shade */
+}
+
+@media print {
+  body {
+    width: 210mm;   /* A4 width */
+    min-height: 297mm; /* A4 height */
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
